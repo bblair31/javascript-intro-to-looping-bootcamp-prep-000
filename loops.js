@@ -20,7 +20,7 @@ function incrementVariable(i) {
 }
 function doWhileLoop(array) {
   do {
-    array.pop
+    array.pop = newArray
   } while (array.length > 0 && incrementVariable())
-  console.log (array)
+ return newArray
 }
