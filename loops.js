@@ -1,5 +1,5 @@
-function forLoop(array) {
- for (var i = 0; i < 25; i++) {
+function forLoop(i) {
+ for (i = 0; i < 25; i++) {
    if (i !== 1) {
      return (`I am ${i} strange loops.`)
    } else {
