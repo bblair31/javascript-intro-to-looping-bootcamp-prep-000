@@ -18,7 +18,7 @@ function whileLoop(number) {
 function incrementVariable(i) {
   i = i + 1;
 }
-function doWhileLoop(newArray) {
+function doWhileLoop(array,newArray) {
   do {
     array.pop = newArray
   } while (array.length > 0 && incrementVariable())
