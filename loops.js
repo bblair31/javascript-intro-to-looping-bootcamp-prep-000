@@ -10,7 +10,7 @@ function forLoop(array1) {
 
 function whileLoop(number) {
   while (number > 0) {
-    return (--number);
+    console.log(--number);
   }
   return "done"
 }
@@ -22,5 +22,5 @@ function doWhileLoop(array) {
   do {
     (array.length - 1)
   } while (array.length > 0 && incrementVariable())
- return newArray
+ return array
 }
